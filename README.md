@@ -3,7 +3,7 @@ The complete functional JavaScript code for Google Apps Script is [Level 2 displ
 
 ## Purpose
 ### View what contents are inside each folder in real-time
-The Google Drive Outline document, also known by its alias "Table of Contents", assists team members of a Google Workspace shared drive by displaying a high-level outline of the shared drive structure in real-time to enhance the searchability of folders and files in different categories. The outline displays folders/files in hierarchical order in different levels with Level 1 being the most-immediate folders/files a user would see when first opening the Google Drive. Level 2 consists of the folders/files in each Level 1 folder. This would display in the Google Doc as so:
+The Google Drive Outline document, also known by its alias "Table of Contents", assists team members of a Google Workspace shared drive by displaying a high-level outline of the shared drive structure in real-time to enhance the searchability of folders and files in different categories. The outline displays folder/file names with hyperlinks in hierarchical order in different levels with Level 1 being the most-immediate folders/files a user would see when first opening the Google Drive. Level 2 consists of the folders/files in each Level 1 folder. This would display in the Google Doc as so:
 * Level 1 File
 * Level 1 Folder
   * Level 2 File
