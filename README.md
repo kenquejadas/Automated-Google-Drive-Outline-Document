@@ -1,5 +1,5 @@
 # Automated Google Drive Outline Document
-The complete functional JavaScript code for Google Apps Script is [Level 2 display](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document/blob/main/Level%202%20display). Level 3 drive contents display is marked incomplete due to improper parent folder categorization when writing onto the Google Doc due to the data structures writing limitation (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Google-Drive-Web-Scrape-Outline-Doc-Automation#technical-constraints) section below).
+The complete functional JavaScript code for Google Apps Script is [Level 2 display](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document/blob/main/Level%202%20display.js). Level 3 drive contents display is marked incomplete due to improper parent folder categorization when writing onto the Google Doc due to the data structures writing limitation (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Google-Drive-Web-Scrape-Outline-Doc-Automation#technical-constraints) section below).
 
 ## Purpose
 ### View what contents are inside each folder in real-time
@@ -11,7 +11,7 @@ The Google Drive Outline document, also known by its alias "Table of Contents", 
 
 As of now, the complete script only writes up to Level 2 drive contents properly categorized under their respective parent folders. This is due to the data structures properly written onto the Google Doc being limited to just multiple arrays for separate folder data (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Google-Drive-Web-Scrape-Outline-Doc-Automation#technical-constraints) section below).
 
-An [experimental script](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document/blob/main/Level%203%20incomplete) for writing Level 3 folders/files is available in this repository, but it currently cannot properly organize Level 3 folders/files under their respective parent folders (Level 2 folders).
+An [experimental script](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document/blob/main/Level%203%20incomplete.js) for writing Level 3 folders/files is available in this repository, but it currently cannot properly organize Level 3 folders/files under their respective parent folders (Level 2 folders).
 
 ## Background
 ### Google Drive Reorganization/UX Project
