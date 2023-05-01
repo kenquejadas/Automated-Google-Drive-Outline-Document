@@ -1,5 +1,5 @@
 # Automated Google Drive Outline Document
-The complete functional JavaScript code for Google Apps Script is [Level 2 display](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document/blob/main/Level%202%20display.js). Level 3 drive contents display is marked incomplete due to improper parent folder categorization when writing onto the Google Doc due to the data structures writing limitation (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Google-Drive-Web-Scrape-Outline-Doc-Automation#technical-constraints) section below).
+The complete functional JavaScript code for Google Apps Script is [Level 2 display](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document/blob/main/Level%202%20display.js). Level 3 drive contents display is marked incomplete due to improper parent folder categorization when writing onto the Google Doc due to the data structures writing limitation (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document#technical-constraints) section below).
 
 ## Purpose
 ### View what contents are inside each folder in real-time
@@ -9,7 +9,7 @@ The Google Drive Outline document, also known by its alias "Table of Contents", 
   * Level 2 File
   * Level 2 Folder
 
-As of now, the complete script only writes up to Level 2 drive contents properly categorized under their respective parent folders. This is due to the data structures properly written onto the Google Doc being limited to just multiple arrays for separate folder data (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Google-Drive-Web-Scrape-Outline-Doc-Automation#technical-constraints) section below).
+As of now, the complete script only writes up to Level 2 drive contents properly categorized under their respective parent folders. This is due to the data structures properly written onto the Google Doc being limited to just multiple arrays for separate folder data (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document#technical-constraints) section below).
 
 An [experimental script](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document/blob/main/Level%203%20incomplete.js) for writing Level 3 folders/files is available in this repository, but it currently cannot properly organize Level 3 folders/files under their respective parent folders (Level 2 folders).
 
@@ -37,7 +37,7 @@ An example written layout is shown below:
 ### Automation
 While the "Table of Contents" drive outline doc received much appraisal, a potential issue was foreseen due to the document's dependency on manual updates in order to accurately outline the team's Google Drive. As the drive itself will change overtime, from simple file additions/deletions to even a complete revamp in organizational structure of the folders, it is not guaranteed and perhaps unlikely that the document will consistently be manually updated to correspond with the Google Drive contents. My manager requested a look into the possibility of the Google Doc updates being automated, and while I was doubtful at first, I proceeded to explore automation capabilities with one of my coworkers with a computer science background. 
 
-The script that my coworker came up with succeeded at reading the drive contents, but was incapable of writing onto the Google Doc due to an issue with data structures (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Google-Drive-Web-Scrape-Outline-Doc-Automation#technical-constraints) section below). After some project stagnation due to other projects occupying team members' priorities, I attempted to reverse engineer my coworker's script to identify the problem, and then rewrite the script using a simpler method that would enable Google Apps Script to write the contents on the Google Doc.
+The script that my coworker came up with succeeded at reading the drive contents, but was incapable of writing onto the Google Doc due to an issue with data structures (for more details, see [**Technical Constraints**](https://github.com/kenquejadas/Automated-Google-Drive-Outline-Document#technical-constraints) section below). After some project stagnation due to other projects occupying team members' priorities, I attempted to reverse engineer my coworker's script to identify the problem, and then rewrite the script using a simpler method that would enable Google Apps Script to write the contents on the Google Doc.
 
 ## Technical Constraints
 ### Data Structures Writing Limitation
