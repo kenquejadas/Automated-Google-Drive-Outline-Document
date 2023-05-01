@@ -139,7 +139,7 @@ function write(level, stop, parent) {
         var indent1 = 72;
         if (selectedObject.fileNames.length > 0) {
           console.log(selectedObject.name + " files counted by Level 2 writing iteration: " + selectedObject.fileNames.length)
-          for (let i = 0; i < selectedObject.files.length; i++) {
+          for (let i = 0; i < selectedObject.fileNames.length; i++) {
             var insideFileName = selectedObject.fileNames[i];
             var insideFileUrl = selectedObject.fileUrls[i];
             Logger.log("Level 2 writing iteration has identified " + insideFileName);
