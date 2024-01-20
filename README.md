@@ -17,6 +17,8 @@ An [experimental script](https://github.com/kenquejadas/Automated-Google-Drive-O
 ### Google Drive Reorganization/UX Project
 This automated drive outline script was a sequential project following the completion of a project to reorganize my work team's Google Drive layout. The team Google Drive had many complaints from users regarding findability of mission-critical files for day-to-day operations. One of the problems was having dozens of folders to choose from just on the home page. Another problem found was lack of searchability of some files using Google Drive's search bar. While our team had no control over Google Drive as a software product, we found a way to work around the searchability issue.
 
+Written permission was given by my manager to upload this project to my GitHub portfolio.
+
 ### Outline/"Table of Contents" Doc to Enhance Searchability
 Following user interviews regarding the team's Google Drive usability, one of the solutions brought up was a "Table of Contents" document, a Google Doc sitting in the home page of the Google Drive that displays an indented list layout of the Google Drive contents so that team members can see the drive contents beyond the home page (Level 1) folders without having to manually click through folders on the Google Drive. Users have also found searching within the document (Ctrl+F for Windows, Cmd+F for Mac) to be more effective than simply using the Google Drive search bar. 
 
